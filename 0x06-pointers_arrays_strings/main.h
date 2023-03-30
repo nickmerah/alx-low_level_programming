@@ -6,6 +6,11 @@
  */
 void print_number(int n);
 /**
+ *The function returns a pointer to the result
+ *Where n1 and n2 are the two numbers
+ */
+char *infinite_add(char *n1, char *n2, char *r, int size_r);
+/**
  * rot13 - converts to rot13
  * @s: string to convert to rot13
  * Return: returns a char
