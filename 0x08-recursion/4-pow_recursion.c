@@ -1,5 +1,7 @@
 #include "main.h"
 /**
+ * @a: integer to power
+ * @b: power to do
  * _pow_recursion - gives power of int
  */
 int _pow_recursion(int a, int b)

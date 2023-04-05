@@ -1,5 +1,8 @@
 #include "main.h"
 /**
+ * helper - helps decide if i'm right
+ * @i: integer to guess
+ * @n: integer to get root of
  * Return: value of root
  */
 int helper(int i, int n)
