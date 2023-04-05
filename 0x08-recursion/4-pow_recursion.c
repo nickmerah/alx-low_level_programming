@@ -1,16 +1,17 @@
 #include "main.h"
 /**
- * @a: integer to power
- * @b: power to do
  * _pow_recursion - gives power of int
+ * @x: integer to power
+ * @y: power to do
+ * Return: integer value
  */
-int _pow_recursion(int a, int b)
+int _pow_recursion(int x, int y)
 {
-	if (b < 0)
+	if (y < 0)
 		return (-1);
-	if (b > 0)
+	if (y > 0)
 	{
-		return (a * _pow_recursion(a, b - 1));
+		return (x * _pow_recursion(x, y - 1));
 	}
 	return (1);
 }
